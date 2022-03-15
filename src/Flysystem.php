@@ -303,8 +303,7 @@ class Flysystem extends AbstractAdapter
 	 */
 	public function createDir($dirname, Config $config)
 	{
-		try
-		{
+		try {
 			$directories = explode('/', $dirname);
 
 			$results = [];
